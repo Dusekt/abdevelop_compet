@@ -76,6 +76,7 @@ descriptors = np.random.randn(N, D)
 # Predict
 y_pred = model(embeddings, descriptors)
 print("Predictions:", y_pred.shape, y_pred[:5])
+```
 
 ## 📚 References
 
