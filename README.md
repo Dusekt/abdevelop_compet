@@ -11,13 +11,13 @@ This repository contains my submission for the **2025 Ginkgo Bioworks Antibody D
 
 The goal is to predict experimental developability properties for antibody sequences:
 
-| Task | Property | Index in Code |
-|------|----------|----------------|
-| Titer | Productivity | 0 |
-| Thermostability | Tm2 | 1 |
-| Self-association | DLS | 2 |
-| Polyreactivity | PSR | 3 |
-| Hydrophobicity | SMAC | 4 |
+| Property  | Index in Code |
+|------|---------------|
+| Titer  | 0 |
+| Thermostability  | 1 |
+| Self-association  | 2 |
+| Polyreactivity  | 3 |
+| Hydrophobicity  | 4 |
 
 
 ---
