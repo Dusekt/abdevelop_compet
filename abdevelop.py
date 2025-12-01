@@ -22,7 +22,7 @@ class EnsembleModel:
         self.base_models = []
         for fold in range(5):
             for m in range(2, 6):
-                weights_path = f"{weights_root}/cv_fold_{fold}_model{m}_{task_id}.pt"
+                weights_path = f"{weights_root}/cv_fold_{task_id}_model{m}_{fold}.pt"
                 if m == 2:
                     model = AntibodyModel2()
                 elif m == 3:
